@@ -1,0 +1,15 @@
+﻿<Window x:Class="Monatsindikator_3._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Monatsindikator_3._0"
+        mc:Ignorable="d"
+        Title="Monatsindikator 3.0" Height="450" Width="800">
+    <StackPanel>
+        <Label Margin="0, 40" HorizontalAlignment="Center" FontSize="15">Bitte Monatszahl, -name oder Jahreszeit eingeben</Label>
+        <TextBox x:Name="tbZahl" Margin="40, 0" FontSize="15" Foreground="Black"/>
+        <Button x:Name="btnBest" Click="btnBest_Click" Margin="325, 50" Padding="10, 3.5" FontSize="13.5" Cursor="Hand">Bestätigen</Button>
+        <Label x:Name="lblErg" HorizontalAlignment="Center" Margin="0, 50" FontSize="20"/>
+    </StackPanel>
+</Window>
